@@ -1,0 +1,21 @@
+# Local environment and generated artifacts
+.env
+backend/.env
+backend/.venv/
+backend/.pytest_cache/
+backend/.ruff_cache/
+backend/var/
+**/__pycache__/
+*.py[cod]
+frontend/node_modules/
+frontend/dist/
+frontend/*.tsbuildinfo
+
+# Java backend is currently out of scope and should not be uploaded.
+java_backend/
+
+# Editor and OS metadata
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
